@@ -1,0 +1,30 @@
+{
+  "name": "kish",
+  "version": "1.0.0",
+  "description": "Image Charts Tools: Image Chart & Infographics wrapper for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test/*.test.js",
+    "test-watch": "mocha -w -R spec test/*.test.js"
+  },
+  "keywords": [
+    "image charts",
+    "charts",
+    "infographics",
+    "charting",
+    "url",
+    "quiche"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otoneko1102/kish.git"
+  },
+  "homepage": "https://github.com/otoneko1102/kish#readme",
+  "author": "otoneko.",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jshint": "2.11.1",
+    "mocha": "5.2.0"
+  }
+}
