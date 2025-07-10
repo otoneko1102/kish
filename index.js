@@ -1,7 +1,7 @@
 const lookup = {};
 const charts = ["bar", "pie", "line", "qr"];
 charts.forEach(function (item) {
-  lookup[item.toLowerCase()] = require("./lib/src" + item);
+  lookup[item.toLowerCase()] = require("./lib/src/" + item);
 });
 
 module.exports = function (type) {
